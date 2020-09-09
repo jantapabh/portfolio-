@@ -6,6 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { BrowserRouter } from 'react-router-dom';
+import WebFont from 'webfontloader';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -13,3 +14,8 @@ ReactDOM.render(
   </BrowserRouter>
   , document.getElementById('root'));
 registerServiceWorker();
+WebFont.load({
+  google: {
+    families: ['Titillium Web:300,400,700', 'sans-serif']
+  }
+});
