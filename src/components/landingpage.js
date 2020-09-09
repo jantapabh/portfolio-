@@ -19,7 +19,7 @@ class Landing extends Component {
               <h1>Full Stack Web Developer</h1>
             
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB | Flutter | Dart | Angularjs | Python</p>
+          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB | Flutter | Dart </p>
 
         <div className="social-links">
 
@@ -36,11 +36,6 @@ class Landing extends Component {
           {/* Medium */}
           <a href="https://medium.com/@jantapa" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-free-code-camp" aria-hidden="true" />
-          </a>
-
-          {/* Youtube */}
-          <a href="https://www.youtube.com/channel/UCRQTBDpo6v4Q-vnr-LiNuxg?view_as=subscriber" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
           </a>
         </div>
             </div>

@@ -14,8 +14,4 @@ ReactDOM.render(
   </BrowserRouter>
   , document.getElementById('root'));
 registerServiceWorker();
-WebFont.load({
-  google: {
-    families: ['Titillium Web:300,400,700', 'sans-serif']
-  }
-});
+
