@@ -9,13 +9,49 @@ import ProfileImg from "./ProfileImg";
 import Contributions from "./Contributions";
 import Internship from "./Internship";
 import Workshop from "./Workshop";
-
+import {
+  BioContainer,
+  DividerHeader,
+  BioText,
+  DividerInSideHeader
+} from "./styles";
 
 
 class About extends Component {
   render() {
     return(
-      <div><h1>About Page</h1></div>
+      <div className="shift-side-space">
+      <div className="app ">
+        <div className="container ">
+          <div className="top-image"></div>
+          <div>
+            <ProfileImg />
+            <Row>
+              <Col md={12}>
+                <Bio />
+
+                <Participated />
+              </Col>
+              <Col md={12}>
+                <Row>
+                  <Col md={24}>
+                    <Internship />
+                    <Skill />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col md={24}></Col>
+                </Row>
+              </Col>
+            </Row>
+            <Row>
+              <Contributions />
+              <Workshop />
+            </Row>
+          </div>
+        </div>
+      </div>
+    </div>
     )
   }
 }

@@ -158,3 +158,198 @@ font-family: 'Titillium Web', sans-serif
   opacity: 1;
   transform: scale(1.15);
 }
+
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300i,300,400,400i,500,700");
+
+.app {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-border-before: 1px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card-container {
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-top: none;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.top-image {
+  margin-top: 24px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 25px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.shift-side-space {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.border-radius {
+  border-radius: 30px;
+}
+#root {
+  background: url("./assets/clouds-daylight-heaven-nature-sky-1499705.jpg")
+      no-repeat,
+    rgb(119, 199, 252);
+  background-size: cover;
+}
+.quote-bg {
+  height: 200px;
+}
+.chagneSkill {
+  text-align: end;
+  position: relative;
+  top: -40px;
+  font-weight: 500;
+  font-size: 0.5em;
+}
+.fa-js-square:hover {
+  color: yellow;
+}
+.fa-react:hover {
+  color: aqua;
+}
+.fa-html5:hover {
+  color: orangered;
+}
+.fa-node-js:hover {
+  color: green;
+}
+#nestjs:hover {
+  filter: none;
+}
+#nestjs {
+  filter: grayscale(1);
+}
+.fa-git:hover {
+  color: orangered;
+}
+.fa-docker:hover {
+  color: aquamarine;
+}
+#mysql:hover {
+  filter: none;
+}
+#mysql {
+  filter: grayscale(1);
+}
+#firebase:hover {
+  filter: none;
+}
+#firebase {
+  filter: grayscale(1);
+}
+#jquery:hover {
+  filter: none;
+}
+#jquery {
+  filter: grayscale(1);
+}
+#mongodb:hover {
+  filter: none;
+}
+#mongodb {
+  filter: grayscale(1);
+}
+.fa-vuejs:hover {
+  color: green;
+}
+#flutter:hover {
+  filter: none;
+}
+#flutter {
+  filter: grayscale(1);
+}
+.fa-css3-alt:hover {
+  color: blue;
+}
+#opencv:hover {
+  filter: none;
+}
+#opencv {
+  filter: grayscale(1);
+}
+#tensorflow:hover {
+  filter: none;
+}
+#tensorflow {
+  filter: grayscale(1);
+}
+.card {
+  width: 100%;
+}
+.card:hover {
+  z-index: 100;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.react-github-calendar__title {
+  visibility: hidden;
+}
+.contributions {
+  position: relative;
+  top: -45px;
+}
+.text-quote{
+  color: black;
+  font-size: 2em;
+  font-weight: 300;
+  font-style: italic;
+}
+.text-quote-big{
+  color: black;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-style: italic;
+}
+@media only screen and (max-width: 1100px) {
+  .text-quote{
+    color: black;
+    font-size: 1em;
+    font-weight: 300;
+    font-style: italic;
+  }
+  .text-quote-big{
+    color: black;
+    font-size: 0.8em;
+    font-weight: 300;
+    font-style: italic;
+  }
+}
