@@ -61,7 +61,7 @@ const Participated = () => {
           okText="Close"
         >
           {url &&(
-            <span> Website : <a href="https://d2x.medizerva.com" target="_blank"> click here</a><br/> Responsible : BackEnd and Database</span>
+            <span> Website : <a href="https://react-cat-miniproject.web.app/" target="_blank"> click here</a><br/> Responsible : FrontEnd and Google Cloud Firebase</span>
           )}
           <img src={cert} width="100%" height="100%"/>
         </Modal>
@@ -71,38 +71,37 @@ const Participated = () => {
         </Divider>
         <Timeline mode="alternate">
           <Timeline.Item>
-            <div>2016 : NSC</div>
+            <div>2562 : หหัวใจการดีไซน์</div>
             <div>
-              Participated in The Eighteenth National Software Contest : NSC2016 , Has
-              done a project about intelligent notification system in school.
+              อบรมการเขียนโปรแกรมโดยใช้ Html + Bootstrap
               <div onClick={(e)=>{showModal(e)}} ><a href="#" id="1"> Reference</a></div>
             </div>
           </Timeline.Item>
           <Timeline.Item>
-            <div>ACM ICPC : 2018</div>
+            <div>Hackathon Health and Wellness 2019 : 2562</div>
             <div>
-              Participated in 2018 ICPC Asia Nakhon Pathom Regional Contest No.34/69.
+              ร่วมแข่งขันเพื่อพัฒนา Solution สำหรับแก้ปัญหาในโรงพยาบาล
               <div onClick={(e)=>{showModal(e)}} ><a href="#" id="2"> Reference</a></div>
             </div>
           </Timeline.Item>
           <Timeline.Item>
-            <div>2019 : Cloud Essential</div>
+            <div>2562 : The U.S Speaker Program on Economic Sustainable Development</div>
             <div>
-            Participated in Cloud Essential and Comp TIA Cloud Essentials Exam
+            ร่วมเข้าอบรมการคิดค้นและแก้ปัญหาธุรกิจท้องถิ่นให้ออกไปสู่ตลาดนอก
             <div onClick={(e)=>{showModal(e)}} ><a href="#" id="3"> Reference</a></div>
             </div>
           </Timeline.Item>
           <Timeline.Item>
-            <div>ACM ICPC : 2019</div>
+            <div>The Tesa Top Gun Rally 2020 : 2563</div>
             <div>
-            Participated in The 2019 ICPC Asia Bangkok Programming Contest.
+             ร่สมเข้าแข่งขันการพัฒนาระบบสมองกลของสมาคมสมองกลระดับประเทศที่มหาวิทยาลัยพะเยาระหว่างวันที่ 5 มกราคม - 11 มกราคม 2020
             <div onClick={(e)=>{showModal(e)}} ><a href="#" id="4"> Reference</a></div>
             </div>
           </Timeline.Item>
           <Timeline.Item>
-            <div>2020 : TESA TOP GUN RALLY </div>
+            <div>Hackathon Health and Wellness 2020 : 2563 </div>
             <div>
-            Participated in The TESA TOP GUN RALLY 2020.
+            ร่วมแข่งขันเพื่อพัฒนา Solution สำหรับแก้ปัญหาในโรงพยาบาล
             <div onClick={(e)=>{showModal(e)}} ><a href="#" id="5"> Reference</a></div>
             </div>
           </Timeline.Item>

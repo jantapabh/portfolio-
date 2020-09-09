@@ -14,15 +14,15 @@ const Bio = ()=> {
         <DividerHeader>PERSONAL REFERENCES</DividerHeader>
       </Divider>
       <BioText>
-        <p>Jantapa Binheem (Jan)</p>
-        <p>I'm {age("07/24/1998")} years old </p>
-       
-        <p>
-        My hobbies are record clips and post on the YouTube about  the computer programming and Windows
-        </p>
-        
+        <p>Asst. Prof. Dr.Warodom Weerapun</p>
+        <p>076-27 (6552)</p>
+        <p>wwarodom(at)coe.phuket.psu.ac.th</p>
       </BioText>
-     
+      <BioText>
+        <p>Dr.Thitinan Kliangsuwan</p>
+        <p>076-27 (6560)</p>
+        <p>thitinan(at)coe.phuket.psu.ac.th</p>
+      </BioText>
     </BioContainer>
   )
 }
