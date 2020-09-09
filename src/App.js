@@ -9,12 +9,12 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Portfolio</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white',fontSize: '30px', borderRadius: '20px', backgroundColor:'black', padding: '10px', margin: '10px'}} to="/">My Portfolio</Link>} scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link style={{fontSize: '25px'}} to="/resume">Resume</Link >
+                <Link style={{fontSize: '25px'}} to="/aboutme">About Me</Link>
+                <Link style={{fontSize: '25px'}} to="/projects">Projects</Link>
+                <Link style={{fontSize: '25px'}} to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Content>

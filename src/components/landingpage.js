@@ -17,7 +17,7 @@ class Landing extends Component {
 
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
-            <hr/>
+            
 
           <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
 
@@ -29,20 +29,19 @@ class Landing extends Component {
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/jantapabh" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          {/* Medium */}
+          <a href="https://medium.com/@jantapa" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-free-code-camp" aria-hidden="true" />
           </a>
 
           {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.youtube.com/channel/UCRQTBDpo6v4Q-vnr-LiNuxg?view_as=subscriber" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-youtube-square" aria-hidden="true" />
           </a>
-
         </div>
             </div>
           </Cell>
