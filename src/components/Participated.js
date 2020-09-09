@@ -8,7 +8,7 @@ import {
 
 import { Divider, Timeline, Icon,Modal } from "antd";
 
-import hackathon2019 from '../assets/hackathon2019.png'
+import hackathon2019 from '../assets/hackathon2019.jpg'
 import hackathon2020 from '../assets/hackathon2020.jpg'
 import design from '../assets/design.jpg'
 import topgun2020 from '../assets/topgun2020.jpg'
