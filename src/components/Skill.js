@@ -15,6 +15,9 @@ import opencv from "../assets/opencv.svg";
 import tensorflow from "../assets/tensorflow.png";
 import firebase from "../assets/firebase.png";
 import jquery from "../assets/jquery.png";
+import c from "../assets/C_sharp.svg";
+
+
 const Skill = () => {
   return (
     <>
@@ -116,6 +119,20 @@ const Skill = () => {
           <DividerInSideHeader>Interesting</DividerInSideHeader>
         </Divider>
         <Row type="flex" justify="space-around">
+          <Tooltip title="Tensorflow">
+            <img
+              src={tensorflow}
+              height="60px"
+             id="tensorflow"
+            />
+          </Tooltip>
+          <Tooltip title="Tensorflow">
+            <img
+              src={tensorflow}
+              height="60px"
+             id="tensorflow"
+            />
+          </Tooltip>
           <Tooltip title="Tensorflow">
             <img
               src={tensorflow}
