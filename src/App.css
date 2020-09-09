@@ -74,6 +74,9 @@
 .avatar-img {
   height: 250px;
   padding-top: 5em;
+  cursor: pointer;
+  border-radius: 100px;
+  
 }
 
 .banner-text {
