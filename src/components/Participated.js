@@ -8,11 +8,11 @@ import {
 
 import { Divider, Timeline, Icon,Modal } from "antd";
 
-import certCompTIA from '../assets/cert-comptia.png'
-import certACM2018 from '../assets/cert-acm2018.jpg'
-import certACM2019 from '../assets/cert-acm2019.jpg'
-import certTesa2020 from '../assets/cert-tesa2020.jpg'
-import certNSC2016 from '../assets/cert-nsc2016.jpg'
+import hackathon2019 from '../assets/hackathon2019.png'
+import hackathon2020 from '../assets/hackathon2020.jpg'
+import design from '../assets/design.jpg'
+import topgun2020 from '../assets/topgun2020.jpg'
+import US2019 from '../assets/US2019.jpg'
 
 
 import test from '../assets/clouds-daylight-heaven-nature-sky-1499705.jpg'
@@ -21,11 +21,11 @@ const Participated = () => {
     const [url , setUrl] = useState(false)
     const [cert  , setCert] = useState("")
     const certs =[
-      certNSC2016,
-      certACM2018,
-        certCompTIA,
-        certACM2019,
-        certTesa2020,
+      design,
+      hackathon2019,
+      US2019,
+      topgun2020,
+      hackathon2020,
         
     ]
     const showModal = (e) => {
