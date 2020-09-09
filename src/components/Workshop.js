@@ -11,7 +11,7 @@ const Workshop = () => {
   }, []);
   const getRepos = async () => {
     let res = await axios.get(
-      "https://api.github.com/users/gitihm/repos?per_page=100"
+      "https://api.github.com/users/jantapabh/repos"
     );
     setRepos(res.data);
   };
