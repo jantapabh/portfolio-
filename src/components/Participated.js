@@ -11,7 +11,7 @@ import certACM2018 from '../assets/cert-acm2018.jpg'
 import certACM2019 from '../assets/cert-acm2019.jpg'
 import certTesa2020 from '../assets/cert-tesa2020.jpg'
 import certNSC2016 from '../assets/cert-nsc2016.jpg'
-import certNSC2020 from '../assets/cert-nsc2020.jpg'
+
 
 import test from '../assets/clouds-daylight-heaven-nature-sky-1499705.jpg'
 const Participated = () => {
@@ -24,7 +24,7 @@ const Participated = () => {
         certCompTIA,
         certACM2019,
         certTesa2020,
-        certNSC2020
+        
     ]
     const showModal = (e) => {
         console.log(e.target.id);
@@ -104,14 +104,7 @@ const Participated = () => {
             <div onClick={(e)=>{showModal(e)}} ><a href="#" id="5"> Reference</a></div>
             </div>
           </Timeline.Item>
-          <Timeline.Item>
-            <div>NSC : 2020</div>
-            <div>
-            Participated in The Twenty-two National Software Contest : NSC2020 , Has
-              done a project Tummy Diarrhea Delivery Express ,Responsible Back-End .
-              <div onClick={(e)=>{showModal(e)}} ><a href="#" id="6"> Reference</a></div>
-            </div>  
-          </Timeline.Item>
+        
           
         </Timeline>
       </BioContainer>

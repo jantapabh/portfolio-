@@ -325,7 +325,11 @@ font-family: 'Titillium Web', sans-serif
 }
 .contributions {
   position: relative;
-  top: -45px;
+  top: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 150px;
 }
 .text-quote{
   color: black;
