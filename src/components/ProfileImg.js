@@ -1,6 +1,7 @@
 import React from "react";
 import { ImageContainer, ProfileImage, ProfileContainer } from "./styles";
-import { Row, Col, message, Icon } from "antd";
+import { Row, Col, message} from "antd";
+import Icon from '@ant-design/icons';
 import Social from "./Social";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Quote from "./Quote";
