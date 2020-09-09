@@ -5,7 +5,9 @@ import {
   BioText,
   DividerInSideHeader
 } from "./styles";
+
 import { Divider, Timeline, Icon,Modal } from "antd";
+
 import certCompTIA from '../assets/cert-comptia.png'
 import certACM2018 from '../assets/cert-acm2018.jpg'
 import certACM2019 from '../assets/cert-acm2019.jpg'
