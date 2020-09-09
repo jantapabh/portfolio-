@@ -18,11 +18,6 @@ const Bio = ()=> {
         <p>076-27 (6552)</p>
         <p>wwarodom(at)coe.phuket.psu.ac.th</p>
       </BioText>
-      <BioText>
-        <p>Dr.Thitinan Kliangsuwan</p>
-        <p>076-27 (6560)</p>
-        <p>thitinan(at)coe.phuket.psu.ac.th</p>
-      </BioText>
     </BioContainer>
   )
 }

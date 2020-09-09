@@ -14,7 +14,7 @@ const ProfileImg = () => {
             <ImageContainer>
               <ProfileImage
                 size={200}
-                src="http://graph.facebook.com/100004603028928/picture?type=large"
+                src="https://scontent.furt3-1.fna.fbcdn.net/v/t1.0-9/57088178_10217054124962704_1824443940598710272_o.jpg?_nc_cat=108&_nc_sid=09cbfe&_nc_ohc=GZcHSMQOvLcAX_Mwqit&_nc_ht=scontent.furt3-1.fna&oh=b9831aaacb26ca774fa4d96745198ee1&oe=5F7DF2A3"
               />
             </ImageContainer>
           </Row>

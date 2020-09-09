@@ -20,7 +20,7 @@ class About extends Component {
         <div className="container ">
           <div className="top-image"></div>
           <div>
-          
+          <ProfileImg />
             <Row>
               <Col md={12}>
                 <Bio />
