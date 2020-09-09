@@ -19,7 +19,7 @@ class Landing extends Component {
               <h1>Full Stack Web Developer</h1>
             
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB | Flutter | Dart | Angularjs | Python</p>
 
         <div className="social-links">
 
