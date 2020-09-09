@@ -15,7 +15,8 @@ import opencv from "../assets/opencv.svg";
 import tensorflow from "../assets/tensorflow.png";
 import firebase from "../assets/firebase.png";
 import jquery from "../assets/jquery.png";
-import c from "../assets/C_sharp.svg";
+import C from "../assets/C_Sharp.svg";
+import st from "../assets/st.jfif";
 
 
 const Skill = () => {
@@ -128,14 +129,14 @@ const Skill = () => {
           </Tooltip>
           <Tooltip title="Tensorflow">
             <img
-              src={tensorflow}
+              src={C}
               height="60px"
              id="tensorflow"
             />
           </Tooltip>
           <Tooltip title="Tensorflow">
             <img
-              src={tensorflow}
+              src={st}
               height="60px"
              id="tensorflow"
             />
