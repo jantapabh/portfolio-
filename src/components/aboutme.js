@@ -28,8 +28,7 @@ class About extends Component {
               </Col>
               <Col md={12}>
                 <Row>
-                  <Col md={24}>
-                    
+                  <Col md={24}>  
                     <Skill />
                   </Col>
                 </Row>

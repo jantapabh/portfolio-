@@ -33,33 +33,33 @@ const ProfileImg = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.facebook.com/hama897"
+                href="https://www.facebook.com/Joajannnnnn"
               >
                 <Icon type="facebook" />
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://medium.com/@ihm"
+                href="https://medium.com/@jantapa"
               >
                 <Icon type="medium" />
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.youtube.com/channel/UCONDAD1r1f4ajf5SLEtTPIQ?view_as=subscriber"
+                href="https://www.youtube.com/channel/UCRQTBDpo6v4Q-vnr-LiNuxg?view_as=subscriber"
               >
                 <Icon type="youtube" />
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/gitihm"
+                href="https://github.com/jantapabh"
               >
                 <Icon type="github" />
               </a>
               <CopyToClipboard
-                text={"ismael.h@outlook.co.th"}
+                text={"jantapa2407@gmail.com"}
                 onCopy={() => message.success("Copied to clipboard.")}
               >
                 <Icon type="mail" />
