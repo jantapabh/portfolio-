@@ -11,7 +11,7 @@ const Bio = ()=> {
   return (
     <BioContainer>
       <Divider orientation="left">
-        <DividerHeader>Bio</DividerHeader>
+        <DividerHeader>PERSONAL REFERENCES</DividerHeader>
       </Divider>
       <BioText>
         <p>Jantapa Binheem (Jan)</p>

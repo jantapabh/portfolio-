@@ -40,34 +40,37 @@ class Resume extends Component {
 
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2017}
+              endYear={2020}
+              schoolName="Faculty of Engineering , Computer of Engineering"
+              schoolDescription="GPA: 2.95"
                />
 
                <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                 startYear={2011}
+                 endYear={2017}
+                 schoolName="Songserm Wittaya School"
+                 schoolDescription="GPA: 3.65"
                   />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
-              <h2>Experience</h2>
+              <h2>Work Background</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2019}
+              endYear={2020}
+              jobName="Mini-project | Jul 2020 - Dec 2020"
+              jobDescription="Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed and
+              Developed dynamic and interactive website that ensured high traffic, page views, and user experience"
+            
               />
 
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                startYear={2020}
+                endYear={2020}
+                jobName="Preparation Project |  present"
+                jobDescription="Designed and developed user-friendly website, including optimized check-out page that increased clicks, and subsequently customer purchases by 20%
+ and Makes major design decisions while collaborating with stakeholders"
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
@@ -81,14 +84,22 @@ class Resume extends Component {
                   />
                   <Skills
                     skill="NodeJS"
-                    progress={50}
+                    progress={70}
                     />
                     <Skills
                       skill="React"
-                      progress={25}
+                      progress={80}
                       />
 
+                   <Skills
+                      skill="MongoDB"
+                      progress={50}
+                      />
 
+               <Skills
+                      skill="Python"
+                      progress={50}
+                      />
           </Cell>
         </Grid>
       </div>

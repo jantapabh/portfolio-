@@ -9,12 +9,7 @@ import ProfileImg from "./ProfileImg";
 import Contributions from "./Contributions";
 import Internship from "./Internship";
 import Workshop from "./Workshop";
-import {
-  BioContainer,
-  DividerHeader,
-  BioText,
-  DividerInSideHeader
-} from "./styles";
+
 
 
 class About extends Component {
@@ -25,11 +20,10 @@ class About extends Component {
         <div className="container ">
           <div className="top-image"></div>
           <div>
-            <ProfileImg />
+          
             <Row>
               <Col md={12}>
                 <Bio />
-
                 <Participated />
               </Col>
               <Col md={12}>
