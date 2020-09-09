@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import image from './img/image.png'
 
 
 class Resume extends Component {
@@ -13,23 +14,23 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src={image}
                 alt="avatar"
-                style={{height: '200px'}}
+                style={{height: '300px', alignItems: 'center', borderRadius:'300px'}}
                  />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Paul Hanna</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
+            <h2 style={{paddingTop: '2em'}}>Jantapa Binheem</h2>
+            <h4 style={{color: 'grey'}}>Web Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>From an early age I have always been deeply interested in computing. I can always remember the feeling of wanting to know just how computers worked, why they worked and what else they could do. There is not only one reason but there are several reasons why I want study Software Engineering at university. I always enjoy a challenge, and can work well under pressure; my other strengths are a strong commitment to customer services, and attention to detail. I am highly motivated and enjoy challenges within a new or existing role.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>39/66 M.6 Vichit Meung Phuket 83000</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>080-4469747</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
+            <p>s6035512034@phuket.psu.ac.th</p>
             <h5>Web</h5>
             <p>mywebsite.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>

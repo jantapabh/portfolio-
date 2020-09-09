@@ -14,11 +14,11 @@ const Bio = ()=> {
         <DividerHeader>Bio</DividerHeader>
       </Divider>
       <BioText>
-        <p>Ismael Hama (Air)</p>
-        <p>I'm {age("08/14/1997")} years old </p>
+        <p>Jantapa Binheem (Jan)</p>
+        <p>I'm {age("07/24/1998")} years old </p>
        
         <p>
-        My hobbies are record clips and post on the YouTube about  the computer programming and Windows. and play online games Dota2.
+        My hobbies are record clips and post on the YouTube about  the computer programming and Windows
         </p>
         
       </BioText>

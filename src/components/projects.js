@@ -33,7 +33,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            From an early age I have always been deeply interested in computing. I can always remember the feeling of wanting to know just how computers worked, why they worked and what else they could do. There is not only one reason but there are several reasons why I want study Software Engineering at university. I always enjoy a challenge, and can work well under pressure; my other strengths are a strong commitment to customer services, and attention to detail. I am highly motivated and enjoy challenges within a new or existing role.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
